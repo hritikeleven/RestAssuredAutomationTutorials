@@ -1,0 +1,11 @@
+package d8APIChainingAssignment;
+import org.testng.ITestContext;
+import org.testng.annotations.Test;
+import com.github.javafaker.Faker;
+import static io.restassured.RestAssured.*;
+import static io.restassured.matcher.RestAssuredMatchers.*;
+import static org.hamcrest.Matchers.*;
+
+public class UpdateStudent {
+
+}

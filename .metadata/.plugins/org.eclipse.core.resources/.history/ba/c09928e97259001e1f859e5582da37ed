@@ -1,0 +1,26 @@
+package d6SerializationandDeSerialization;
+//POJO TO JSON is Serialization
+//JSON TO POJO is DeSerialization
+
+import org.testng.annotations.Test;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+
+
+public class SerializationandDeSerialization {
+	@Test
+	void ConvertPOJOtoJSON() throws JsonProcessingException {
+		Students_POJO StuObj =new Students_POJO();
+		StuObj.setName("Bunty Chuadhary");
+		StuObj.setPhone(8273656678);
+		StuObj.setLocation("London");
+		
+		ObjectMapper ObjMapper = new ObjectMapper();
+		String JsonData = ObjMapper.writerWithDefaultPrettyPrinter().writeValueAsString(StuObj);
+		System.out.println(JsonData);
+		
+	}
+
+}

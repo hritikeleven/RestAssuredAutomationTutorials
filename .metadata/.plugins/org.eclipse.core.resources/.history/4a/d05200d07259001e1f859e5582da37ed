@@ -1,0 +1,14 @@
+package d6SerializationandDeSerialization;
+//POJO TO JSON is Serialization
+//JSON TO POJO is DeSerialization
+
+import org.testng.annotations.Test;
+
+public class SerializationandDeSerialization {
+	@Test
+	void ConvertPOJOtoJSON() {
+		
+		
+	}
+
+}

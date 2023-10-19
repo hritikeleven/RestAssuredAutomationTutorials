@@ -1,0 +1,12 @@
+package d7FakeDataGeneration;
+
+import com.github.javafaker.Faker;
+
+public class FakeData {
+	Faker faker =new Faker();
+	String FullName = faker.name().fullName();
+	String Username = faker.name().username();
+	String Password = faker.internet().password(true);
+	system.out.println(FullName);
+
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-26T00:01:49 IST" name="Suite" finished-at="2023-09-26T00:01:53 IST" duration-ms="3768">
+    <groups>
+    </groups>
+    <test started-at="2023-09-26T00:01:49 IST" name="Test" finished-at="2023-09-26T00:01:53 IST" duration-ms="3768">
+      <class name="d8APIChainingAssignment.UpdateStudent">
+        <test-method signature="UpdateDetails(org.testng.ITestContext)[pri:0, instance:d8APIChainingAssignment.UpdateStudent@2d710f1a]" started-at="2023-09-26T00:01:53 IST" name="UpdateDetails" finished-at="2023-09-26T00:01:53 IST" duration-ms="121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e990ed7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateDetails -->
+      </class> <!-- d8APIChainingAssignment.UpdateStudent -->
+      <class name="d8APIChainingAssignment.CreateStudent">
+        <test-method signature="NewStudent(org.testng.ITestContext)[pri:0, instance:d8APIChainingAssignment.CreateStudent@6253c26]" started-at="2023-09-26T00:01:49 IST" name="NewStudent" finished-at="2023-09-26T00:01:53 IST" duration-ms="3427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e990ed7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewStudent -->
+      </class> <!-- d8APIChainingAssignment.CreateStudent -->
+      <class name="d8APIChainingAssignment.GetStudent">
+        <test-method signature="FetchDetails(org.testng.ITestContext)[pri:0, instance:d8APIChainingAssignment.GetStudent@d9345cd]" started-at="2023-09-26T00:01:53 IST" name="FetchDetails" finished-at="2023-09-26T00:01:53 IST" duration-ms="145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e990ed7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FetchDetails -->
+      </class> <!-- d8APIChainingAssignment.GetStudent -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

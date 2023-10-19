@@ -1,0 +1,5 @@
+package d7AuthenticationTypes;
+
+public class Authentication {
+
+}

@@ -1,0 +1,22 @@
+package d7FakeDataGeneration;
+
+import org.testng.annotations.Test;
+
+import com.github.javafaker.Faker;
+
+public class FakeData {
+	@Test
+	void FakeData() {
+	Faker faker =new Faker();
+	String FullName = faker.name().fullName();
+	String Username = faker.name().username();
+	String Password = faker.internet().password(true);
+	String Email = faker.internet().emailAddress();
+	String PhoneNo = faker.phoneNumber().phoneNumber();
+	System.out.print(FullName);
+	System.out.print(Username);
+	System.out.print(Password);
+	System.out.print(Email);
+	System.out.print(PhoneNo);
+	}
+}
